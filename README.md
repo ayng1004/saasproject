@@ -1,4 +1,4 @@
-# 🎟️ 4WEBD – Solution SaaS de billetterie événementielle
+# 🎟️ Solution SaaS de billetterie événementielle
 
 4WEBD est une application complète de gestion de billetterie pour événements, concerts et spectacles. Pensée pour les organisateurs de toutes tailles, elle repose sur une architecture microservices robuste, un système d'authentification sécurisé, et des interfaces web.
 
