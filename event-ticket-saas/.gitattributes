@@ -1,0 +1,7 @@
+# .gitattributes
+* text=auto eol=lf
+
+# .gitattributes
+* text eol=lf
+
+

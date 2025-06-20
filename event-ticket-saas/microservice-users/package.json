@@ -1,0 +1,33 @@
+{
+    "name": "microservice-users",
+    "version": "1.0.0",
+    "description": "User management service for Event Ticket SaaS",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "jest --detectOpenHandles --forceExit"
+    },
+    "dependencies": {
+        "axios": "^1.8.4",
+        "bcrypt": "^5.1.1",
+        "bcryptjs": "^3.0.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "helmet": "^7.2.0",
+        "jsonwebtoken": "^9.0.2",
+        "morgan": "^1.10.0",
+        "pg": "^8.14.1",
+        "swagger-jsdoc": "^6.2.8",
+        "swagger-ui-express": "^5.0.1",
+        "swagger-ui-react": "^5.20.2",
+        "uuid": "^11.1.0"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "nodemon": "^3.0.2",
+        "pg-mock": "^1.0.1",
+        "supertest": "^6.3.4"
+    }
+}
